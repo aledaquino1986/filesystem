@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1> Registrate </h1>
+
+
+    <div class="registro"> 
+            
+        <form action="/users/register" method ="POST" enctype="multipart/form-data"> 
+            <h3>Datos del comprador</h3>
+              <label class="usuario">*Nombre</label> <br>
+              <input class="formulario-datos-usuario" type="text" id="nombre" name="nombre" placeholder="Ale"><br>
+              <label class="usuario">*Apellido</label> <br>
+              <input class="formulario-datos-usuario" type="text" id="apellido" name="apellido" placeholder="Neme"><br>
+              <label class="usuario">*Email</label> <br>
+              <input class="formulario-datos-usuario" type="email" id="email" name="email" placeholder="aleneme@gmail.com"> <br>
+              <label class="usuario">*Contraseña</label> <br>
+              <input class="formulario-datos-usuario" type="password" id="password1" name="password1"> <br>
+              <label class="usuario">*Repetir Contraseña</label> <br>
+              <input class="formulario-datos-usuario" type="password" id="password2" name="password2"> <br>
+              <label class="usuario">*Subir Avatar</label> <br>
+              <input type="file" name="avatar" id="avatar"> <br> <br>
+              <input type="submit">
+          </form>
+          
+          </div> 
+
+    
+</body>
+</html>
